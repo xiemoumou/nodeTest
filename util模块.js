@@ -41,7 +41,7 @@ Object.defineProperty(obj,"age",{
     enumerable:false,  //enumerable：可枚举的,如果是false则无法输出age属性
     configurable:true,   //可配置
     writable:true      //值是否可以改变
-})
+});
 
 //输出对象
 console.log(util.inspect(obj,{
